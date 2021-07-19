@@ -209,6 +209,47 @@ body {
   margin-top: 30px;
 }
 
+/*===MODAL FORM===*/
+
+.modal-form {
+  padding: 40px;
+  display: flex;
+}
+
+.modal-form {
+  flex-direction: column;
+}
+
+.modal-form-head {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+
+  color: #212121;
+}
+
+.modal-form-input {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 40px;
+  margin-top: 4px;
+}
+
+.modal-form-field {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.66;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
 /*====END HEROUS====*/
 
 /*====MAIN SECTION====*/
