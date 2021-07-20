@@ -85,7 +85,7 @@
         <div class="container">
             <section>
                 <div>
-                    <h2 hidden>Наши преимущества</h2>
+                    <h2 class="visually-hidden">Наши преимущества</h2>
                     <ul class="list features-list">
                         
                         
@@ -395,71 +395,94 @@
         <!--Contact Information-->
         
         <div class="footer-bg">
-            <div class="delajem-flex container ">
-                <div class="logo-and-contacts">
-                    <div class="text-footer">
-                        <a class="logo-text-footer link" href="index.html"><span class="logo-color">Web</span>Studio</a>
-                    
-                        <address>
-                    
-                            <ul class="list info-footer">
-                    
-                                <li class="info-footer-item"><a class="footer-adress-color link"
-                                        href="https://goo.gl/maps/4jYSG3tw3BuYqJCy7"><span>г. Киев, пр-т
-                                            Леси Украинки, 26</span></a></li>
-                    
-                                <li class="info-footer-item"><a class="footer-contacts link" href="mailto:">info@example.com</a></li>
-                    
-                                <li class="info-footer-item"><a class="footer-contacts link" href="tel:+380991111111">+38 099 111 11 11</a>
-                                </li>
-                    
-                            </ul>
-                    
-                        </address>
-                    
+            <div class="footer-position">
+                <div class="delajem-flex container ">
+                    <div class="logo-and-contacts">
+                        <div class="text-footer">
+                            <a class="logo-text-footer link" href="index.html"><span class="logo-color">Web</span>Studio</a>
+                
+                            <address>
+                
+                                <ul class="list info-footer">
+                
+                                    <li class="info-footer-item"><a class="footer-adress-color link"
+                                            href="https://goo.gl/maps/4jYSG3tw3BuYqJCy7"><span>г. Киев, пр-т
+                                                Леси Украинки, 26</span></a></li>
+                
+                                    <li class="info-footer-item"><a class="footer-contacts link" href="mailto:">info@example.com</a>
+                                    </li>
+                
+                                    <li class="info-footer-item"><a class="footer-contacts link" href="tel:+380991111111">+38 099 111 11
+                                            11</a>
+                                    </li>
+                
+                                </ul>
+                
+                            </address>
+                
+                        </div>
+                    </div>
+                
+                    <div class="container-footer">
+                        <h2 class="social-list-text">присоединяйтесь</h2>
+                        <ul class="social-list-footer">
+                            <li class="social-list-footer-link">
+                                <a href="#" class="">
+                                    <svg class="social-list-footer-icon" width="44" height="44">
+                                        <use href="./images/sprite.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-footer-link twitter-footer">
+                                <a href="#" class="">
+                                    <svg class="social-list-footer-icon twitter-footer-icon" width="44" height="44">
+                                        <use href="./images/sprite.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-footer-link">
+                                <a href="#" class="">
+                                    <svg class="social-list-footer-icon" width="44" height="44">
+                                        <use href="./images/sprite.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-footer-link">
+                                <a href="#" class="">
+                                    <svg class="social-list-footer-icon" width="" height="">
+                                        <use href="./images/sprite.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                
+                        </ul>
+                    </div>
+                
+                    <div class="footer-send-email">
+                        <p class="footer-send-email-text">подпишитесь на рассылку</p>
+                        <label class="footer-subscribe-section">
+                            <input type="email" class="footer-send-email-input footer-input-text" name="user-name" placeholder="E-mail">
+                            <button type="button" class="footer-send-email-button"><span class="footer-btn-text">Подписаться</span>
+                                <svg class="footer-subscribe-icon">
+                                    <use href="./images/sprite.svg#icon-icon-send"></use>
+                                </svg>
+                            </button>
+                        </label>
                     </div>
                 </div>
-                
-                <div class="container-footer">
-                    <h2 class="social-list-text">присоединяйтесь</h2>
-                    <ul class="social-list-footer">
-                        <li class="social-list-footer-link">
-                            <a href="#" class="">
-                                <svg class="social-list-footer-icon" width="44" height="44">
-                                    <use href="./images/sprite.svg#icon-instagram-2"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-list-footer-link twitter-footer">
-                            <a href="#" class="">
-                                <svg class="social-list-footer-icon twitter-footer-icon" width="44" height="44">
-                                    <use href="./images/sprite.svg#icon-twitter-1"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-list-footer-link">
-                            <a href="#" class="">
-                                <svg class="social-list-footer-icon" width="44" height="44">
-                                    <use href="./images/sprite.svg#icon-facebook-1"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-list-footer-link">
-                            <a href="#" class="">
-                                <svg class="social-list-footer-icon" width="" height="">
-                                    <use href="./images/sprite.svg#icon-linkedin-1"></use>
-                                </svg>
-                            </a>
-                        </li>
-                
-                    </ul>
-                </div>
+
             </div>
+            
+
+
+
+
+        </div>
            
     
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>
                 <svg class="backdrop-modal-btn" width="" height="">
@@ -474,7 +497,7 @@
                 <label class="modal-form-field">
                     Имя
                     <span class="modal-form-input-wrapper">
-                        <input type="text" class="modal-form-input" name="user-name">
+                        <input type="text" class="modal-form-input" name="user-name" title="Имя должно содержать символы кириллицы или латиницы" pattern="[a-zA-Zа-яёА-ЯЁ]+" minlength="2" required>
                         <svg class="modal-form-icon" width="" height="">
                             <use href="./images/sprite.svg#icon-Vector-5"></use>
                         </svg>
@@ -484,7 +507,8 @@
                 <label class="modal-form-field">
                     Телефон
                     <span class="modal-form-input-wrapper">
-                        <input type="tel" class="modal-form-input" name="user-name">
+                        <input type="tel" class="modal-form-input" name="user-name" 
+                        pattern="[0-9]{3}[0-9]{2}-[0-9]-{2}" title="096-000-00-00" required>
                         <svg class="modal-form-icon" width="" height="">
                             <use href="./images/sprite.svg#icon-Vector-3"></use>
                         </svg>
@@ -499,9 +523,6 @@
                                 <svg class="modal-form-icon" width="" height="">
                                     <use href="./images/sprite.svg#icon-Vector-4"></use>
                                 </svg>
-                            
-
-    
                     </span>
                     
                 </label>
@@ -511,23 +532,13 @@
                 </label>
             
                     
-                <input type="checkbox" class="modal-form-checkbox" id="accept-policy">
-                <label for="accept-policy" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю <a href="#" class="modal-form-label-link">Условия договора</a></label>
+                <input type="checkbox" class="modal-form-checkbox visually-hidden" id="accept-policy">
+                <label for="accept-policy" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#" class="modal-form-label-link">Условия договора</a></label>
 
-                <button type="submit" class="modal-form-btn">Отправить</button>
+                <button type="submit" class="modal-form-btn"><span class="modal-form-btn-send">Отправить</span></button>
             
-
-            
-
 
             </form>
-
-
-
-
-
-
-
 
 
 
